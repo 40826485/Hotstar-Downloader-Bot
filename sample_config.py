@@ -3,15 +3,15 @@ import os
 class Config(object):
 
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("6687054033:AAH2oe11-vppaZgQ-HkdwcMjvhjUgmI07bs", "")
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("20243439", 12345))
+    API_HASH = os.environ.get("3d859e9ffa95d00f9e7e8781fdfd310a")
 
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("@A_R_53", "").split())
 
     # Ban Unwanted Members..
     BANNED_USERS = []
